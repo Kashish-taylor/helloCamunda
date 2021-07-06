@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class CamundaController {
 	
-	@Autowired
+	@Autowired`
 	CamundaService camundaService;
 	@GetMapping("/{processKey}")
 	public void print(@PathVariable String processKey) {
